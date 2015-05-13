@@ -1,0 +1,38 @@
+//Passo 1
+//p {color : blue;}
+
+//Variáveis
+//$cor : #DDD;
+//p{color: $cor;}
+
+//Trabalhando com aninhamentos
+//$cor-01:c1;
+//$cor-02:c2;
+//#content{
+//	background-color: #EEE;
+//	border: 1px solid #CCC;
+//	margin-top: 10px;
+//	padding: 10px;
+//	p{	color: $cor-01;
+//		strong{color: $cor-02; font-style: italic; }
+//	}
+//	strong{color:red;}
+//}
+
+//criando mixin(Função com parâmetros default ou não)
+//@mixin alertas($cor-fundo: #EEE, $cor-fonte:#333){
+//	color: $cor-fonte;
+//	margin-top: 10px;
+//	background-color: $cor-fundo;
+//	border-radius: 5px;
+//	width: 60%;
+//	padding: 10px;
+//	border: 1px solid #999;
+//}
+//
+//.alerta-padrao {@include alertas; }
+//.alerta-sucesso {@include alertas(#87CEFA, #555); }
+//.alerta-error {@include alertas(#FF0000, #222); }
+
+@import "variaveis.scss";
+body { background-color: $cor-fundo;}

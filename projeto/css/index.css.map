@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAqCA,IAAK;EAAE,gBAAgB,ECrCX,IAAI",
+"sources": ["../sass/index.scss","../sass/variaveis.scss"],
+"names": [],
+"file": "index.css"
+}
